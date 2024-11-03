@@ -1,0 +1,47 @@
+<!-- footer.html -->
+<footer class="footer-container">
+   <section class="footer-subscription">
+      <p class="footer-subscription-heading">
+         Join the Health & Wellness newsletter to receive our advice and remedies to deal with different illnesses
+      </p>
+      <p class="footer-subscription-text">
+         You can unsubscribe at any time.
+      </p>
+      <div class="input-areas">
+         <form id="subscription-form">
+            <span id="email-error" class="error-message"></span>
+            <input class="footer-input" name="email" type="email" placeholder="Email Address"
+               pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required />
+            <button class="btn btn--outline" type="button" onclick="logFormContents()">Subscribe</button>
+         </form>
+      </div>
+   </section>
+   <section class="social-media">
+      <div class="social-media-wrap">
+         <div class="footer-logo">
+            <a href="javascript:void(0);" class="social-logo" onclick="loadPageContent('home')">
+               TRVL
+               <i class="fab fa-typo3"></i>
+            </a>
+         </div>
+         <small id="website-rights" class="website-rights">TRVL © 2024</small>
+         <div class="social-icons">
+            <a class="social-icon-link facebook" href="/" target="_blank" aria-label="Facebook">
+               <i class="fab fa-facebook-f"></i>
+            </a>
+            <a class="social-icon-link instagram" href="/" target="_blank" aria-label="Instagram">
+               <i class="fab fa-instagram"></i>
+            </a>
+            <a class="social-icon-link youtube" href="/" target="_blank" aria-label="Youtube">
+               <i class="fab fa-youtube"></i>
+            </a>
+            <a class="social-icon-link twitter" href="/" target="_blank" aria-label="Twitter">
+               <i class="fab fa-twitter"></i>
+            </a>
+            <a class="social-icon-link linkedin" href="/" target="_blank" aria-label="LinkedIn">
+               <i class="fab fa-linkedin"></i>
+            </a>
+         </div>
+      </div>
+   </section>
+</footer>

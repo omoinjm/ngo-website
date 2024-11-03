@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Home</title>
+</head>
+
+<body>
+   <section id="home page-content">
+      <div class="hero-container">
+         <video src="../../assets/video/video-1.mp4" autoplay loop muted></video>
+         <h1>Empowering Health, Enriching Live</h1>
+         <p>Ready to Make a Difference in Health and Wellness?</p>
+         <div class="hero-btns">
+            <button class="btns btn--outline btn--large">LEARN MORE</button>
+            <button class="btns btn--primary btn--large" onclick="console.log('hey')">
+               WATCH TRAILER <i class="far fa-play-circle"></i>
+            </button>
+         </div>
+      </div>
+
+      <div class="cards">
+         <h1>Programs and Initiatives</h1>
+         <div class="cards__container">
+            <div class="cards__wrapper">
+               <ul class="cards__items">
+                  <li class="cards__item">
+                     <a href="javascript:void(0);" class="cards__item__link" onclick="loadPageContent('services')">
+                        <figure class="cards__item__pic-wrap" data-category="Health & Wellness Coaching">
+                           <img class="cards__item__img" alt="Travel Image" src="../../assets/images/img-9.jpg" />
+                        </figure>
+                        <div class="cards__item__info">
+                           <h5 class="cards__item__text">Personalized Nutrition and Fitness Planning</h5>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="cards__item">
+                     <a href="javascript:void(0);" class="cards__item__link" onclick="loadPageContent('services')">
+                        <figure class="cards__item__pic-wrap" data-category="Mental Health Support">
+                           <img class="cards__item__img" alt="Travel Image" src="../../assets/images/img-2.jpg" />
+                        </figure>
+                        <div class="cards__item__info">
+                           <h5 class="cards__item__text">Mindfulness and Stress Reduction Workshops</h5>
+                        </div>
+                     </a>
+                  </li>
+               </ul>
+               <ul class="cards__items">
+                  <li class="cards__item">
+                     <a href="javascript:void(0);" class="cards__item__link" onclick="loadPageContent('services')">
+                        <figure class="cards__item__pic-wrap" data-category="Community Health Education">
+                           <img class="cards__item__img" alt="Travel Image" src="./../assets/images/img-3.jpg" />
+                        </figure>
+                        <div class="cards__item__info">
+                           <h5 class="cards__item__text">Public Health Awareness Campaigns</h5>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="cards__item">
+                     <a href="javascript:void(0);" class="cards__item__link" onclick="loadPageContent('services')">
+                        <figure class="cards__item__pic-wrap" data-category="Health & Wellness Coaching">
+                           <img class="cards__item__img" alt="Travel Image" src="./../assets/images/img-4.jpg" />
+                        </figure>
+                        <div class="cards__item__info">
+                           <h5 class="cards__item__text">Lifestyle and Habit Coaching</h5>
+                        </div>
+                     </a>
+                  </li>
+                  <li class="cards__item">
+                     <a href="javascript:void(0);" class="cards__item__link" onclick="loadPageContent('services')">
+                        <figure class="cards__item__pic-wrap" data-category="Preventive Health Services">
+                           <img class="cards__item__img" alt="Travel Image" src="./../assets/images/img-8.jpg" />
+                        </figure>
+                        <div class="cards__item__info">
+                           <h5 class="cards__item__text">Health Screenings and Basic Assessments</h5>
+                        </div>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+
+
+   </section>
+</body>
+<script>
+   document.getElementById('page-title').innerText = "Home";
+</script>
+
+</html>
