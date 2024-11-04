@@ -6,6 +6,8 @@ layout: default
 
 # Website Page and Content Structure
 
+[LIVE SITE](https://trvl-wellness.vercel.app)
+
 Below you can find the Word and PDF versions of the website structure:
 
 - [Word Document](./docs/website_page_structure.docx)
