@@ -35,3 +35,22 @@ img {
    line-height: 1.5; /* Improved line height for readability */
    color: #555; /* Slightly lighter text for list items */
 }
+
+.cards button {
+   background-color: #007bff; /* Blue button */
+   color: #fff; /* White button text */
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   width: 100%;
+}
+
+.cards__item__link {
+   display: flex;
+   flex-direction: column;
+}
+
+.cards__item__info {
+   flex-grow: 1;
+}
