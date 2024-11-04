@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-   function logFormContents() {
+   function subsribe() {
        const form = document.getElementById('subscription-form');
        if (form) {
            const formData = new FormData(form);
@@ -11,5 +11,5 @@ document.addEventListener('DOMContentLoaded', function() {
    }
 
    // Attach the function to the global scope if needed
-   window.logFormContents = logFormContents;
+   window.logFormContents = subsribe;
 });

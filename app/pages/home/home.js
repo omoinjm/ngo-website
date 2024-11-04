@@ -27,7 +27,6 @@ function showTrailer() {
           <li><strong>Holistic Wellness</strong>: Addressing physical, mental, and emotional health.</li>
         </ul>
       </section>
-      <a href="javascript:void(0);" onclick="loadPageContent('services') class="btn btn-primary">Contact Us</a>
     `,
     showCloseButton: true
   });
