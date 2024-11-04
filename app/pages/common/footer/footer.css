@@ -171,3 +171,8 @@
 
 @media screen and (max-width: 768px) {
 }
+
+.footer-popup-list ol {
+  line-height: 1.6;
+  margin-bottom: 30px; /* Added margin below paragraphs and lists */
+}
