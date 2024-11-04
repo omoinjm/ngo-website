@@ -3,7 +3,8 @@
 
 <head>
    <meta charset="UTF-8">
-   <title>Services</title>
+   <title>Test Services</title>
+   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 
 <body>
@@ -25,36 +26,21 @@
                         <div class="cards__item__info">
                            <h5 class="cards__item__text">Personalized Nutrition and Fitness Planning</h5>
                            <ul class="workshop-list">
-                              <li>
-                                 Assess individual health goals through comprehensive consultations.
+                              <li>Assess individual health goals through comprehensive consultations.</li>
+                              <li>Develop tailored meal plans accommodating specific dietary preferences (e.g.,
+                                 vegetarian, vegan, gluten-free).</li>
+                              <li>Create customized workout regimens aligned with clients' fitness levels and
+                                 preferences (e.g., strength training, cardio, yoga).</li>
+                              <li>Monitor progress regularly and adjust plans as needed for optimal results.</li>
+                              <li>Educate clients on portion control, mindful eating, and nutritional labels.</li>
+                              <li>Provide recipes and cooking tips that encourage healthy eating habits.</li>
+                              <li>Incorporate technology (apps, wearables) to track fitness and nutrition effectively.
                               </li>
-                              <li>
-                                 Develop tailored meal plans accommodating specific dietary preferences (e.g.,
-                                 vegetarian,
-                                 vegan, gluten-free).
-                              </li>
-                              <li>
-                                 Create customized workout regimens aligned with clients' fitness levels and preferences
-                                 (e.g., strength training, cardio, yoga).
-                              </li>
-                              <li>
-                                 Monitor progress regularly and adjust plans as needed for optimal results.
-                              </li>
-                              <li>
-                                 Educate clients on portion control, mindful eating, and nutritional labels.
-                              </li>
-                              <li>
-                                 Provide recipes and cooking tips that encourage healthy eating habits.
-                              </li>
-                              <li>
-                                 Incorporate technology (apps, wearables) to track fitness and nutrition effectively.
-                              </li>
-                              <li>
-                                 Offer ongoing support and motivation through regular check-ins.
-                              </li>
+                              <li>Offer ongoing support and motivation through regular check-ins.</li>
                            </ul>
                         </div>
-                        <button class="btns btn--outline btn--large">Book Session</button>
+                        <button class="btns btn--outline btn--large"
+                           onclick="showPopup('Personalized Nutrition and Fitness Planning')">Book Session</button>
                      </a>
                   </li>
                   <li class="cards__item">
@@ -78,7 +64,8 @@
                               </li>
                            </ul>
                         </div>
-                        <button class="btns btn--outline btn--large">Book Session</button>
+                        <button class="btns btn--outline btn--large"
+                           onclick="showPopup('Mindfulness and Stress Reduction Workshops')">Book Session</button>
                      </a>
                   </li>
                </ul>
@@ -91,34 +78,20 @@
                         <div class="cards__item__info">
                            <h5 class="cards__item__text">Public Health Awareness Campaigns</h5>
                            <ul class="workshop-list">
-                              <li>
-                                 Organize workshops and seminars on critical health topics (e.g., diabetes,
-                                 hypertension).
+                              <li>Organize workshops and seminars on critical health topics (e.g., diabetes,
+                                 hypertension).</li>
+                              <li>Develop educational materials (flyers, brochures) tailored to community needs.</li>
+                              <li>Partner with local organizations to expand outreach and impact.</li>
+                              <li>Utilize social media platforms for awareness and engagement.</li>
+                              <li>Host health fairs to provide free screenings and health education resources.</li>
+                              <li>Conduct surveys to assess community health needs and interests.</li>
+                              <li>Promote healthy lifestyle choices through interactive challenges and competitions.
                               </li>
-                              <li>
-                                 Develop educational materials (flyers, brochures) tailored to community needs.
-                              </li>
-                              <li>
-                                 Partner with local organizations to expand outreach and impact.
-                              </li>
-                              <li>
-                                 Utilize social media platforms for awareness and engagement.
-                              </li>
-                              <li>
-                                 Host health fairs to provide free screenings and health education resources.
-                              </li>
-                              <li>
-                                 Conduct surveys to assess community health needs and interests.
-                              </li>
-                              <li>
-                                 Promote healthy lifestyle choices through interactive challenges and competitions.
-                              </li>
-                              <li>
-                                 Evaluate the effectiveness of campaigns and adapt strategies accordingly.
-                              </li>
+                              <li>Evaluate the effectiveness of campaigns and adapt strategies accordingly.</li>
                            </ul>
                         </div>
-                        <button class="btns btn--outline btn--large">Book Session</button>
+                        <button class="btns btn--outline btn--large"
+                           onclick="showPopup('Public Health Awareness Campaigns')">Book Session</button>
                      </a>
                   </li>
                   <li class="cards__item">
@@ -129,35 +102,22 @@
                         <div class="cards__item__info">
                            <h5 class="cards__item__text">Lifestyle and Habit Coaching</h5>
                            <ul class="workshop-list">
-                              <li>
-                                 Identify current habits and their impacts on overall health and wellness.
+                              <li>Identify current habits and their impacts on overall health and wellness.</li>
+                              <li>Set achievable, measurable goals to encourage gradual lifestyle changes.</li>
+                              <li>Introduce strategies for time management and organization to promote healthier
+                                 routines.</li>
+                              <li>Encourage self-reflection and awareness to recognize triggers for unhealthy habits.
                               </li>
-                              <li>
-                                 Set achievable, measurable goals to encourage gradual lifestyle changes.
-                              </li>
-                              <li>
-                                 Introduce strategies for time management and organization to promote healthier
-                                 routines.
-                              </li>
-                              <li>
-                                 Encourage self-reflection and awareness to recognize triggers for unhealthy habits.
-                              </li>
-                              <li>
-                                 Provide resources for stress management, including journaling and meditation
-                                 techniques.
-                              </li>
-                              <li>
-                                 Foster accountability through regular coaching sessions and progress assessments.
-                              </li>
-                              <li>
-                                 Celebrate milestones and successes to motivate continued progress.
-                              </li>
-                              <li>
-                                 Guide clients in building a supportive environment for sustaining lifestyle changes.
+                              <li>Provide resources for stress management, including journaling and meditation
+                                 techniques.</li>
+                              <li>Foster accountability through regular coaching sessions and progress assessments.</li>
+                              <li>Celebrate milestones and successes to motivate continued progress.</li>
+                              <li>Guide clients in building a supportive environment for sustaining lifestyle changes.
                               </li>
                            </ul>
                         </div>
-                        <button class="btns btn--outline btn--large">Book Session</button>
+                        <button class="btns btn--outline btn--large"
+                           onclick="showPopup('Lifestyle and Habit Coaching')">Book Session</button>
                      </a>
                   </li>
                </ul>
@@ -170,33 +130,19 @@
                         <div class="cards__item__info">
                            <h5 class="cards__item__text">Health Screenings and Basic Assessments</h5>
                            <ul class="workshop-list">
-                              <li>
-                                 Offer regular blood pressure checks to monitor cardiovascular health.
-                              </li>
-                              <li>
-                                 Conduct BMI assessments to evaluate weight status and obesity risk.
-                              </li>
-                              <li>
-                                 Perform blood glucose screenings for early detection of diabetes.
-                              </li>
-                              <li>
-                                 Provide cholesterol testing to assess heart health risk factors.
-                              </li>
-                              <li>
-                                 Educate clients on the importance of preventive screenings and regular check-ups.
-                              </li>
-                              <li>
-                                 Offer health risk assessments to identify potential health issues.
-                              </li>
-                              <li>
-                                 Develop personalized action plans based on screening results and health goals.
-                              </li>
-                              <li>
-                                 Ensure follow-up consultations to discuss results and further preventive measures.
+                              <li>Offer regular blood pressure checks to monitor cardiovascular health.</li>
+                              <li>Conduct BMI assessments to evaluate weight status and obesity risk.</li>
+                              <li>Perform blood glucose screenings for early detection of diabetes.</li>
+                              <li>Provide cholesterol testing to assess heart health risk factors.</li>
+                              <li>Educate clients on the importance of preventive screenings and regular check-ups.</li>
+                              <li>Offer health risk assessments to identify potential health issues.</li>
+                              <li>Develop personalized action plans based on screening results and health goals.</li>
+                              <li>Ensure follow-up consultations to discuss results and further preventive measures.
                               </li>
                            </ul>
                         </div>
-                        <button class="btns btn--outline btn--large">Book Session</button>
+                        <button class="btns btn--outline btn--large"
+                           onclick="showPopup('Health Screenings and Basic Assessments')">Book Session</button>
                      </a>
                   </li>
                </ul>
@@ -206,8 +152,5 @@
 
    </section>
 </body>
-<script>
-   document.getElementById('page-title').innerText = "Services";
-</script>
 
 </html>
